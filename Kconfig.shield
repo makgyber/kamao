@@ -1,0 +1,8 @@
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+config SHIELD_KAMAO_LEFT
+	def_bool $(shields_list_contains,kamao_left)
+
+config SHIELD_KAMAO_RIGHT
+	def_bool $(shields_list_contains,kamao_right)
