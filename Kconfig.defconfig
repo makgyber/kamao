@@ -1,10 +1,11 @@
 # Copyright (c) 2020 The ZMK Contributors
 # SPDX-License-Identifier: MIT
 
+
 if SHIELD_KAMAO_LEFT
 
 config ZMK_KEYBOARD_NAME
-	default "KAMAO"
+	default "XJAM32-LEFT"
 
 config ZMK_SPLIT_BLE_ROLE_CENTRAL
 	default y
